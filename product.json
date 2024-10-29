@@ -1,0 +1,64 @@
+{
+  
+  "product":[{
+    
+    "name": "Meadow view Estate",
+    "description": "Meadow View Estate could highlight its beautiful, scenic surroundings, spacious homes, and peaceful atmosphere.",
+    "image": "meadow.jpg",
+    "price": "₱16,900,000.00" 
+     },
+  {
+    "name": "Oak grove Estate",
+    "description": "Oak Grove Manor is typically a residential facility designed to provide supportive living arrangements for seniors or individuals needing assisted care.",
+    "image": "oak.jpg",
+    "price": "₱5,999" },
+  {
+    "name": "Highland Castle",
+    "description": "A highland castle evokes a powerful, almost mythical atmosphere with its grand stone walls, towering turrets, and stunning views of rugged hills or lochs below.",
+    "image": "highland.jpg",
+    "price": "₱8million"
+    },
+  {
+    "name": "Willow winds Mansion",
+    "description": "Willow Winds Mansion has an enchanting, slightly eerie atmosphere, as though it exists between the realms of reality and a forgotten, mystical past.",
+    "image": "willow.jpg",
+    "price": "₱160,000,00"
+   },
+  {
+    "name": "Cedar Hall",
+    "description": "Cedar Hall is an estate marked by both grandeur and a shadowy history, as tales of old social divides and subtle discrimination linger in its walls.",
+    "image": "cedar.jpg",
+    "price": "₱140,0000,000"
+    },
+  {
+    "name": "Riverside chateau",
+    "description": "Riverside Chateau is an elegant estate that combines the grace of classical architecture with the soothing ambiance of its riverside setting.",
+    "image": "riverside.jpg",
+    "price": "₱200,0000,000"
+    },
+  {
+    "name": "Elmwood villa",
+    "description": "Elmwood Villa is a charming yet stately residence, tucked away amidst ancient elm trees that lend the villa its name.",
+    "image": "Elmwood.jpg",
+    "price": "₱1500,000"
+   },
+  {
+    "name": "Sunset Retreat",
+    "description": "Sunset Retreat is a breathtaking getaway nestled on a hillside with panoramic views of the horizon.",
+    "image": "sunset.jpg",
+    "price": "₱100,000,000" 
+   },
+  { 
+    "name": "Fox hollow Residence",
+    "description":"Fox Hollow Residence is a secluded, enchanting home nestled in a forest clearing, surrounded by towering trees and the tranquil beauty of nature." ,
+    "image": "Fox.jpg",
+    "price": "₱9million"
+   },
+  {
+    "name": "Orchard Manor",
+    "description": "Orchard Manor is a stunning estate nestled within lush orchards and vibrant gardens, offering a serene retreat that celebrates both elegance and the beauty of nature.",
+    "image": "Orchard.jpg",
+    "price": "₱5million"
+    }
+  ]
+}

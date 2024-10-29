@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dream House</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 align = "center">JOHNJOE CORIÑO DREAM</h1>
+    <div class="container" id="Johnjoe"></div>
+
+    <script>
+        // Fetch data from the JSON file
+      fetch('product.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('Johnjoe');
+                
+      data.product.forEach(House=> { 
+        const joe= document.createElement('Johnjoe');
+        joe.className = 'House-card';
+        joe.innerHTML = `<img src="${House.image}" House="${House.name}">
+             <h3>${House.name}</h3>
+             <p>${House.description}</p>
+             <p class="price">${House.price}</p>
+                    `;
+               container.appendChild(joe);
+          });
+      })
+         .catch(error => {
+            console.error('error', error);
+         });
+    </script>
+    <footer>
+      <p>Designed By: CORIÑO,JOHNJOE</p>
+      <p>G-12 COOPER</p>
+    </footer>
+</body>
+</html>
